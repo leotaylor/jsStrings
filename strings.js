@@ -11,3 +11,22 @@ console.log("string", string);
 var DNA ="GCAT"
 var RNA = DNA.replace("T", "U");
 console.log("RNA:", RNA);
+
+// Challenge #4
+var animal = "Alligator";
+// var animal = "Dog";
+// var animal = "bird";
+if (animal.toLowerCase() === "alligator"){
+    console.log("small");
+} else if (animal.toLowerCase() != "alligator"){
+    console.log("wide");
+}
+
+var animal = "Alligator";
+// var animal = "Dog";
+// var animal = "bird";
+if (animal.toLowerCase() === "alligator"){
+    console.log("small");
+} else {
+    console.log("wide");
+}
